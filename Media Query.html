@@ -1,0 +1,103 @@
+<!Doctype html>
+<head>
+
+  <title>CSS Page</title>
+
+</head>
+<style>
+
+
+  /* we always show the @media query at the end of the css */
+  
+    
+.class{
+    height: 200px;
+    width: 1350px;
+    background-color:rgb(15, 138, 87);
+    text-align: center;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 1024px) {   
+    .class{
+        background-color:rgb(15, 138, 87);
+        width: 100%;
+        font-size: larger;
+        color: black;
+    }
+        .p{
+            display: none;
+        }
+}
+
+/* Laptop 2 */
+@media only screen and (max-width: 1280px) {   
+    .class{
+        background-color:rgb(219, 9, 184);
+        width: 100%;
+        font-size: 50px;
+        color: red;
+    }
+}
+
+
+/* iPhone 8 Plus, 7 Plus, 6S Plus */
+@media only screen and (max-width: 800px) {   
+    .class{
+        background-color:rgb(13, 151, 25);
+        width: 100%;
+        font-size: 60px;
+        color: rgb(255, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 600px) {   
+    .class{
+        background-color:rgb(45, 123, 160);
+        width: 100%;
+        font-size: 80px;
+        color: blue;
+    }
+}
+
+@media only screen and (max-width: 414px) {   
+    .class{
+        background-color:sienna;
+        width: 100%;
+        font-size: 80px;
+        color: rgb(238, 238, 243);
+    }
+}
+
+/* iPhone XS, X */
+@media only screen and (max-width: 375px) {   
+    .class{
+        background-color:rgb(10, 33, 167);
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {   
+    .class{
+        background-color:rgb(18, 192, 204);
+        width: 100%;
+        color: crimson;
+    }
+}
+</style>
+
+
+
+<body>
+
+<div class="class">
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Quae qui dignissimos architecto voluptatem ipsa minima, facilis ea saepe nulla a, 
+    impedit, quod vero autem maxime neque ullam nemo iure molestias?
+  </p>
+</div>
+
+</body>
+</head>
